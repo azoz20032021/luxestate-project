@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
-import { propertiesData } from '../DATA/properties';
+import { propertiesData } from '../data/properties';
 import { MapPin, Bed, Bath, ArrowRight } from 'lucide-react';
 
 const SearchResults = () => {
