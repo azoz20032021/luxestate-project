@@ -2,7 +2,6 @@ import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { MapPin, Bed, Bath, ArrowRight, CheckCircle, Phone } from 'lucide-react';
 import { propertiesData } from '../data/properties';
-
 const PropertyDetails = () => {
   const { id } = useParams();
   const navigate = useNavigate();
